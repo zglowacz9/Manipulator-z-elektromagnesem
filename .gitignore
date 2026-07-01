@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# --- KiCAD (Pliki tymczasowe i kopie zapasowe) ---
+*.bak
+*.kicad_prl
+*-bak
+*-backups/
+_autosave-*
+
+# --- LTSpice (Pliki z wynikami symulacji, potrafią być ogromne!) ---
+*.raw
+*.log
+*.op.raw
+
+# --- Systemowe (Śmieci z Windowsa / Maca) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
